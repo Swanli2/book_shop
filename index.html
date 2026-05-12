@@ -3,46 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BookWorld</title>
+    <title>Moonlight Books Café</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>📚 BookWorld</h1>
+    <div class="logo">
+        ☕📚 Moonlight Books Café
+    </div>
 
     <nav>
         <a href="index.html">Головна</a>
+        <a href="#books">Книги</a>
+        <a href="#genres">Жанри</a>
         <a href="contacts.html">Контакти</a>
     </nav>
 </header>
 
 <section class="hero">
-    <h2>Світ книг, який чекає на тебе</h2>
+    <h1>Книги, кава та атмосфера затишку</h1>
 
     <p>
-        Відкрий дивовижний світ літератури:
-        класика, фантастика, детективи та
-        сучасні бестселери.
+        Місце, де запах кави поєднується з історіями.
+        Відкрий для себе найкращі книги, гарячі напої
+        та ідеальну атмосферу для читання.
     </p>
+
+    <button>Обрати книгу</button>
 </section>
 
-<section>
-    <h2>Наші жанри</h2>
+<section class="book-day">
+    <h2>📖 Книга дня</h2>
 
-    <ul>
-        <li>📖 Класична література</li>
-        <li>🕵️ Детективи</li>
-        <li>✨ Фентезі</li>
-        <li>🚀 Фантастика</li>
-        <li>💖 Романтика</li>
-    </ul>
+    <div class="day-card">
+        <h3>«Маленький принц»</h3>
+        <p>
+            Тепла історія про дружбу, любов та дорослих,
+            які забули бути дітьми.
+        </p>
+        <span>⭐ 4.9 / 5</span>
+    </div>
 </section>
 
-<section>
+<section id="genres">
+    <h2>Популярні жанри</h2>
+
+    <div class="genres">
+        <div class="genre">🕵️ Детективи</div>
+        <div class="genre">✨ Фентезі</div>
+        <div class="genre">💖 Романтика</div>
+        <div class="genre">🚀 Фантастика</div>
+        <div class="genre">👻 Жахи</div>
+        <div class="genre">📚 Класика</div>
+    </div>
+</section>
+
+<section id="books">
     <h2>Популярні книги</h2>
 
-    <table border="1">
+    <div class="books-container">
+
+        <div class="book-card">
+            <h3>Гаррі Поттер</h3>
+            <p>Дж. К. Ролінґ</p>
+            <span>⭐ 4.8</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Шерлок Голмс</h3>
+            <p>Артур Конан Дойл</p>
+            <span>⭐ 4.7</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Гордість і упередження</h3>
+            <p>Джейн Остін</p>
+            <span>⭐ 4.8</span>
+        </div>
+
+        <div class="book-card">
+            <h3>451° за Фаренгейтом</h3>
+            <p>Рей Бредбері</p>
+            <span>⭐ 4.6</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Дюна</h3>
+            <p>Френк Герберт</p>
+            <span>⭐ 4.9</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Воно</h3>
+            <p>Стівен Кінг</p>
+            <span>⭐ 4.5</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Портрет Доріана Грея</h3>
+            <p>Оскар Вайлд</p>
+            <span>⭐ 4.8</span>
+        </div>
+
+        <div class="book-card">
+            <h3>1984</h3>
+            <p>Джордж Орвелл</p>
+            <span>⭐ 4.9</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Кораліна</h3>
+            <p>Ніл Ґейман</p>
+            <span>⭐ 4.7</span>
+        </div>
+
+        <div class="book-card">
+            <h3>Тінь і кістка</h3>
+            <p>Лі Бардуґо</p>
+            <span>⭐ 4.5</span>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Топ книг місяця</h2>
+
+    <table>
         <tr>
             <th>Книга</th>
             <th>Автор</th>
@@ -56,43 +144,29 @@
         </tr>
 
         <tr>
-            <td>Гаррі Поттер</td>
-            <td>Дж. К. Ролінґ</td>
-            <td>⭐ 4.8</td>
+            <td>1984</td>
+            <td>Джордж Орвелл</td>
+            <td>⭐ 4.9</td>
         </tr>
 
         <tr>
-            <td>Шерлок Голмс</td>
-            <td>Артур Конан Дойл</td>
-            <td>⭐ 4.7</td>
+            <td>Дюна</td>
+            <td>Френк Герберт</td>
+            <td>⭐ 4.8</td>
         </tr>
     </table>
 </section>
 
-<section>
-    <h2>Чому варто читати?</h2>
-
-    <ol>
-        <li>Розвиває уяву</li>
-        <li>Покращує словниковий запас</li>
-        <li>Допомагає розслабитися</li>
-        <li>Дає нові знання</li>
-    </ol>
-</section>
-
-<section>
-    <h2>Корисне посилання</h2>
-
+<section class="quote">
+    <h2>📜 Цитата дня</h2>
     <p>
-        Більше про книги:
-        <a href="https://uk.wikipedia.org/wiki/Книга" target="_blank">
-            Wikipedia
-        </a>
+        «Той, хто читає, проживає тисячу життів,
+        перш ніж помре.»
     </p>
 </section>
 
 <footer>
-    <p>© 2026 BookWorld</p>
+    <p>☕ Moonlight Books Café © 2026</p>
 </footer>
 
 </body>
